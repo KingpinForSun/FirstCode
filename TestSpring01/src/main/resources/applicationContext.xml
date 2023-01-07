@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:component-scan base-package="com.msb.pojo"></context:component-scan>
+<!--    <bean id="b" class="com.msb.pojo.Book">-->
+<!--        <property name="id" value="1" ></property>-->
+<!--        <property name="name" value="项目驱动零起点学JAVA" ></property>-->
+<!--    </bean>-->
+<!--    <bean id="b2" class="com.msb.pojo.Book">-->
+<!--        <constructor-arg name="id" value="2"></constructor-arg>-->
+<!--        <constructor-arg name="name" value="红高粱"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="boy" class="com.msb.pojo.Boy">-->
+<!--        <property name="age" value="22"></property>-->
+<!--        <property name="name" value="Arthes"></property>-->
+<!--    </bean>-->
+<!--    <bean id="girl" class="com.msb.pojo.Girl">-->
+<!--        <property name="age" value="19"></property>-->
+<!--        <property name="name" value="Lily"></property>-->
+<!--        <property name="boyfriend" ref="boy"></property>-->
+<!--    </bean>-->
+</beans>

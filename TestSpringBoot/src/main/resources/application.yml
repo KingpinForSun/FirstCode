@@ -1,0 +1,13 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /springbootssm
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+mybatis:
+  type-aliases-package: com.msb.pojo
+  mapper-locations: classpath:mybatis/*.xml
