@@ -1,0 +1,13 @@
+#p4 {
+    background-color: aqua;
+    font-size: 44px;
+}
+
+/*组合样式*/
+div p {
+    color: blue;
+}
+
+div .f32 {
+    font-size: 44px;
+}
